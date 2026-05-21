@@ -1,13 +1,13 @@
 export const personalInfo = {
-  name: " Regis Devepler",
+  name: " Regis Developer",
   title: "Full Stack Developer",
   subtitle: "Building scalable web applications with modern technologies",
   bio: "I'm a passionate full stack developer with 5+ years of experience crafting elegant solutions to complex problems. I love working at the intersection of design and engineering — building products that are both beautiful and performant.",
   location: "Rwanda Huye",
   email: "regis@example.com",
-  github: "https://github.com/regisdeveper",
-  linkedin: "https://linkedin.com/regisdeveper",
-  twitter: "https://twitter.com/regisdeveper",
+  github: "https://github.com/regisdeveloper",
+  linkedin: "https://linkedin.com/regisdeveloper",
+  twitter: "https://twitter.com/regisdeveloper",
   resume: "#",
   avatar: "RD.png",
 };

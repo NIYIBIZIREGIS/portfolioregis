@@ -24,9 +24,9 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: personalInfo.github, username: "@regisdeveper" },
-    { icon: Linkedin, label: "LinkedIn", href: personalInfo.linkedin, username: "regisdeveper" },
-    { icon: Twitter, label: "Twitter", href: personalInfo.twitter, username: "@regisdeveper" },
+    { icon: Github, label: "GitHub", href: personalInfo.github, username: "@regisdeveloper" },
+    { icon: Linkedin, label: "LinkedIn", href: personalInfo.linkedin, username: "regisdeveloper" },
+    { icon: Twitter, label: "Twitter", href: personalInfo.twitter, username: "@regisdeveloper" },
   ];
 
   return (
