@@ -2,6 +2,7 @@ import { ArrowDown, Github, Linkedin, Twitter, Mail, Download } from "lucide-rea
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { personalInfo } from "@/lib/data";
+// import Image from 'next/image'
 
 export default function Hero() {
   const scrollTo = (href: string) => {
@@ -38,11 +39,14 @@ export default function Hero() {
           <span className="text-sm text-muted-foreground">Available for new opportunities</span>
         </div>
 
-        <div className="mb-4">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 border border-primary/20 text-2xl font-bold text-primary mb-6">
-            {personalInfo.avatar}
-          </div>
-        </div>
+        <div className="mb-6">
+  <img 
+    src="/Regis.jpeg" 
+    alt="Regis portrait" 
+    className="w-24 h-24 rounded-full object-cover border-2 border-primary/30 shadow-lg mx-auto" 
+  />
+</div>
+
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-4">
           Hi, I'm{" "}
